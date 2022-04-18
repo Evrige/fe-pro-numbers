@@ -45,4 +45,4 @@ export const getFlooroCeil = (number) => Math.trunc(number) % 2 === 0 ? Math.flo
  * @param {number} to
  * @returns {number}
  */
-export const randomizer = (from, to) => Math.floor((Math.random() + 0.01) * (to - from) + from);
+export const randomizer = (from, to) => Math.round(Math.random() * (to - from) + from);
